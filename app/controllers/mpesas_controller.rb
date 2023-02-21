@@ -1,3 +1,4 @@
+# mpesa controller
 class MpesasController < ApplicationController
   require 'rest-client'
   rescue_from SocketError, with: :OfflineMode
